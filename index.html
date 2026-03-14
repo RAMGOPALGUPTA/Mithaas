@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#c4813a">
+<title>Mithas — Bakery, Sweets & Cake House</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="cur" id="cur"></div>
+<div class="cur-f" id="curf"></div>
+ 
+<!-- ════════════  NAV  ════════════ -->
+<nav id="mainNav">
+  <a href="#" class="logo">
+    <div class="logo-icon">🎂</div>
+    <div>
+      <span class="logo-text">Mithas</span>
+      <span class="logo-sub">Bakery · Sweets · Cakes</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#story">Our Story</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#visit">Visit Us</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="theme-btn" id="themeBtn">
+      <div class="theme-knob"></div>
+      <div class="theme-icons"><span>☀️</span><span>🌙</span></div>
+    </div>
+    <a href="https://wa.me/919876543210?text=Hi%20Mithas!%20I%20want%20to%20place%20an%20order%20🎂" target="_blank" class="whatsapp-btn">
+      <span>💬</span> Order on WhatsApp
+    </a>
+  </div>
+</nav>
+ 
+<!-- ════════════  HERO  ════════════ -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-badge">Handcrafted with Love Since 2008</div>
+    <h1 class="hero-title">
+      Every Bite<br>
+      <em class="line2">Tells a</em><br>
+      Story
+    </h1>
+    <p class="hero-desc">Ludhiana's most beloved bakery — fresh cakes, traditional Indian sweets & artisan bakes made with the finest ingredients every single day.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn-warm"><span>Explore Menu</span></a>
+      <a href="#gallery" class="btn-outline">View Gallery</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">15+</span>
+        <span class="stat-lbl">Years</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat-item">
+        <span class="stat-num">200+</span>
+        <span class="stat-lbl">Items</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat-item">
+        <span class="stat-num">50k+</span>
+        <span class="stat-lbl">Happy Customers</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img class="hero-img-main"
+      src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&q=85&auto=format&fit=crop"
+      alt="Beautiful cake">
+    <div class="hero-img-overlay"></div>
+    <div class="hero-float-card">
+      <span class="float-emoji">🍰</span>
+      <div class="float-title">Custom Cakes</div>
+      <div class="float-sub">Order 48hrs in advance</div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ════════════  MARQUEE  ════════════ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <div class="m-item">Fresh Baked Daily <span class="m-dot">✦</span></div>
+    <div class="m-item">Custom Cakes <span class="m-dot">✦</span></div>
+    <div class="m-item">Traditional Mithais <span class="m-dot">✦</span></div>
+    <div class="m-item">Artisan Breads <span class="m-dot">✦</span></div>
+    <div class="m-item">Home Delivery Available <span class="m-dot">✦</span></div>
+    <div class="m-item">Bulk Orders Welcome <span class="m-dot">✦</span></div>
+    <div class="m-item">Fresh Baked Daily <span class="m-dot">✦</span></div>
+    <div class="m-item">Custom Cakes <span class="m-dot">✦</span></div>
+    <div class="m-item">Traditional Mithais <span class="m-dot">✦</span></div>
+    <div class="m-item">Artisan Breads <span class="m-dot">✦</span></div>
+    <div class="m-item">Home Delivery Available <span class="m-dot">✦</span></div>
+    <div class="m-item">Bulk Orders Welcome <span class="m-dot">✦</span></div>
+  </div>
+</div>
+ 
+<!-- ════════════  MENU  ════════════ -->
+<section class="menu-section" id="menu">
+  <div class="sec-header reveal">
+    <span class="sec-tag">What We Bake</span>
+    <h2 class="sec-title">Our <em>Signature</em> Menu</h2>
+    <div class="sec-line"></div>
+  </div>
+ 
+  <div class="menu-tabs reveal">
+    <button class="menu-tab active" data-tab="cakes">🎂 Cakes</button>
+    <button class="menu-tab" data-tab="sweets">🍮 Indian Sweets</button>
+    <button class="menu-tab" data-tab="bakery">🥐 Bakery</button>
+  </div>
+ 
+  <!-- CAKES -->
+  <div class="menu-panel active" id="tab-cakes">
+    <div class="menu-card reveal">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80&auto=format&fit=crop" alt="Chocolate Truffle">
+        <span class="menu-badge hot">Bestseller</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Chocolate Truffle Cake</h3>
+        <p class="menu-desc">Rich Belgian chocolate layers with silky ganache frosting & truffle crumble</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹650</span>
+          <a href="https://wa.me/919876543210?text=I want to order Chocolate Truffle Cake" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card reveal reveal-delay-1">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=600&q=80&auto=format&fit=crop" alt="Red Velvet">
+        <span class="menu-badge fresh">New</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Red Velvet Cake</h3>
+        <p class="menu-desc">Classic red velvet with cream cheese frosting & fresh red rose petals</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹700</span>
+          <a href="https://wa.me/919876543210?text=I want to order Red Velvet Cake" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card reveal reveal-delay-2">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&q=80&auto=format&fit=crop" alt="Fruit Cake">
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Fresh Fruit Cake</h3>
+        <p class="menu-desc">Light vanilla sponge loaded with seasonal fresh fruits & whipped cream</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹580</span>
+          <a href="https://wa.me/919876543210?text=I want to order Fresh Fruit Cake" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- SWEETS -->
+  <div class="menu-panel" id="tab-sweets">
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://blog.swiggy.com/wp-content/uploads/2024/07/Gulab-Jamun_-1024x536.jpg" alt="Gulab Jamun">
+        <span class="menu-badge hot">Bestseller</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Gulab Jamun</h3>
+        <p class="menu-desc">Soft khoya dumplings soaked in saffron rose syrup — a timeless classic</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹280/kg</span>
+          <a href="https://wa.me/919876543210?text=I want to order Gulab Jamun" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://i.pinimg.com/736x/3c/3e/7f/3c3e7fe9f61ad0b0e84463e2b8c16ba3.jpg" alt="Kaju Katli">
+        <span class="menu-badge fresh">Premium</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Kaju Katli</h3>
+        <p class="menu-desc">Pure cashew fudge with silver leaf — perfect for gifting & celebrations</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹900/kg</span>
+          <a href="https://wa.me/919876543210?text=I want to order Kaju Katli" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://bikanervala.com/cdn/shop/files/Khoya_Burfi.jpg?v=1764935374" alt="Barfi">
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Assorted Barfi Box</h3>
+        <p class="menu-desc">Coconut, Pista, Chocolate & Mango barfi in a premium gift box</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹450/box</span>
+          <a href="https://wa.me/919876543210?text=I want to order Assorted Barfi Box" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- BAKERY -->
+  <div class="menu-panel" id="tab-bakery">
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80&auto=format&fit=crop" alt="Croissant">
+        <span class="menu-badge fresh">Fresh Daily</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Butter Croissant</h3>
+        <p class="menu-desc">Flaky, buttery French-style croissants baked fresh every morning at 7am</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹85/pc</span>
+          <a href="https://wa.me/919876543210?text=I want to order Butter Croissant" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80&auto=format&fit=crop" alt="Cookies">
+        <span class="menu-badge hot">Fan Fav</span>
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Choco Chip Cookies</h3>
+        <p class="menu-desc">Thick, chewy cookies loaded with Belgian dark chocolate chips & sea salt</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹60/pc</span>
+          <a href="https://wa.me/919876543210?text=I want to order Choco Chip Cookies" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <div class="menu-img-wrap">
+        <img class="menu-img" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80&auto=format&fit=crop" alt="Sourdough">
+      </div>
+      <div class="menu-info">
+        <h3 class="menu-name">Sourdough Loaf</h3>
+        <p class="menu-desc">48-hour slow-fermented artisan sourdough with crispy crust & airy crumb</p>
+        <div class="menu-footer">
+          <span class="menu-price">₹220/loaf</span>
+          <a href="https://wa.me/919876543210?text=I want to order Sourdough Loaf" target="_blank" class="menu-order">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ════════════  STORY  ════════════ -->
+<section class="story-section" id="story">
+  <div class="story-imgs reveal">
+    <img class="story-main" src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFrZXJ5fGVufDB8fDB8fHww" alt="Baker at work">
+    <img class="story-accent" src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=500&q=80&auto=format&fit=crop" alt="Fresh bread">
+    <div class="story-year">
+      <span class="yr">2008</span>
+      <span class="yr-l">Est. Ludhiana</span>
+    </div>
+  </div>
+  <div class="story-content reveal">
+    <span class="sec-tag">Our Story</span>
+    <h2 class="sec-title">Baked with<br><em>Generations</em> of Love</h2>
+    <p class="story-text">What started as a small home kitchen in Model Town, Ludhiana has grown into the city's most trusted name in sweets and baking. Founded by Sardar Gurmeet Singh in 2008, Mithas has been feeding joy to families across Punjab for over 15 years.</p>
+    <p class="story-text" style="margin-top:12px;">We source only the finest ingredients — pure desi ghee, farm-fresh dairy, and Belgian couverture chocolate — because we believe you deserve nothing less than the best.</p>
+    <blockquote class="story-quote">"Mithas isn't just a shop — it's where memories are made, celebrations begin, and every sweet moment is honoured."</blockquote>
+    <div class="story-features">
+      <div class="feat-item">
+        <span class="feat-icon">🧈</span>
+        <div>
+          <div class="feat-name">Pure Desi Ghee</div>
+          <div class="feat-desc">No hydrogenated fats ever</div>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon">🌾</span>
+        <div>
+          <div class="feat-name">Fresh Daily</div>
+          <div class="feat-desc">Baked every morning by 8am</div>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon">🎁</span>
+        <div>
+          <div class="feat-name">Gift Packaging</div>
+          <div class="feat-desc">Beautiful boxes for all occasions</div>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon">🚚</span>
+        <div>
+          <div class="feat-name">Home Delivery</div>
+          <div class="feat-desc">Same-day delivery in Ludhiana</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ════════════  GALLERY  ════════════ -->
+<section class="gallery-section" id="gallery">
+  <div class="sec-header reveal">
+    <span class="sec-tag">From Our Kitchen</span>
+    <h2 class="sec-title">The <em>Sweet</em> Gallery</h2>
+    <div class="sec-line"></div>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item">
+      <img class="gallery-img" src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80&auto=format&fit=crop" alt="Decorated cake">
+      <div class="gallery-overlay"><span class="gallery-label">Custom Celebration Cakes</span></div>
+    </div>
+    <div class="gallery-item">
+      <img class="gallery-img" src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=500&q=80&auto=format&fit=crop" alt="Cupcakes">
+      <div class="gallery-overlay"><span class="gallery-label">Cupcakes & Mini Cakes</span></div>
+    </div>
+    <div class="gallery-item">
+      <img class="gallery-img" src="data:image/jpeg;base64,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" alt="Macarons">
+      <div class="gallery-overlay"><span class="gallery-label">French Macarons</span></div>
+    </div>
+    <div class="gallery-item">
+      <img class="gallery-img" src="https://i.pinimg.com/736x/3c/3e/7f/3c3e7fe9f61ad0b0e84463e2b8c16ba3.jpg" alt="Indian sweets">
+      <div class="gallery-overlay"><span class="gallery-label">Traditional Mithais</span></div>
+    </div>
+    <div class="gallery-item">
+      <img class="gallery-img" src="https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&q=80&auto=format&fit=crop" alt="Pastries">
+      <div class="gallery-overlay"><span class="gallery-label">Fresh Pastries</span></div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ════════════  WHATSAPP CTA  ════════════ -->
+<div class="wa-section">
+  <div class="wa-bg-text">ORDER</div>
+  <div class="wa-content">
+    <span class="wa-tag">✦ Quick & Easy Ordering</span>
+    <h2 class="wa-title">Order Fresh,<br><em>Delivered</em> to Your Door</h2>
+    <p class="wa-desc">Custom cakes, bulk sweets for weddings & events, or just today's fresh batch — chat with us directly on WhatsApp and we'll sort everything out!</p>
+    <div class="wa-hours" style="margin-top:20px;">
+      <div class="wa-hours-dot"></div>
+      <span class="wa-hours-txt">We're online — Mon to Sun, 8:00 AM to 9:00 PM</span>
+    </div>
+  </div>
+  <div class="wa-actions">
+    <a href="https://wa.me/919876543210?text=Hi%20Mithas!%20I'd%20like%20to%20place%20an%20order%20🎂" target="_blank" class="wa-big-btn">
+      <span class="wa-icon">💬</span>
+      Chat on WhatsApp
+    </a>
+    <span class="wa-note">Typically replies within 5 minutes</span>
+  </div>
+</div>
+ 
+<!-- ════════════  REVIEWS  ════════════ -->
+<section class="reviews-section" id="reviews">
+  <div class="sec-header reveal">
+    <span class="sec-tag">Customer Love</span>
+    <h2 class="sec-title">What Our <em>Customers</em> Say</h2>
+    <div class="sec-line"></div>
+  </div>
+  <div class="reviews-grid reveal">
+    <div class="review-card">
+      <div class="review-quote-icon">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">The chocolate truffle cake for my daughter's birthday was absolutely stunning — both in looks and taste! Everyone at the party was asking where it's from. Will always order from Mithas!</p>
+      <div class="review-author">
+        <img class="review-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop&crop=face" alt="Simran">
+        <div>
+          <div class="review-name">Simran Kaur</div>
+          <div class="review-loc">Model Town, Ludhiana</div>
+          <div class="review-item">🎂 Chocolate Truffle Cake</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-quote-icon">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Ordered 5kg of assorted sweets for Diwali. The Kaju Katli was melt-in-mouth — pure ghee, no cheap shortcuts. Packaging was premium too. My family loved it. Thank you Mithas!</p>
+      <div class="review-author">
+        <img class="review-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop&crop=face" alt="Rajiv">
+        <div>
+          <div class="review-name">Rajiv Sharma</div>
+          <div class="review-loc">Sarabha Nagar, Ludhiana</div>
+          <div class="review-item">🍮 Kaju Katli — 5kg Order</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-quote-icon">"</div>
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">Best sourdough bread in Ludhiana — no contest! I order 2 loaves every Saturday. The croissants are equally amazing. You can taste the care that goes into every single item they make.</p>
+      <div class="review-author">
+        <img class="review-avatar" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&auto=format&fit=crop&crop=face" alt="Preet">
+        <div>
+          <div class="review-name">Preetinder Bedi</div>
+          <div class="review-loc">BRS Nagar, Ludhiana</div>
+          <div class="review-item">🥐 Sourdough & Croissants</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ════════════  INFO STRIP  ════════════ -->
+<div class="info-strip" id="visit">
+  <div class="info-item reveal">
+    <span class="info-icon">📍</span>
+    <div class="info-title">Find Us</div>
+    <div class="info-text">24, Model Town Market<br>Ludhiana, Punjab 141002</div>
+  </div>
+  <div class="info-item reveal reveal-delay-1">
+    <span class="info-icon">🕗</span>
+    <div class="info-title">Opening Hours</div>
+    <div class="info-text">Mon – Sat: 8:00 AM – 9:00 PM<br>Sunday: 9:00 AM – 7:00 PM</div>
+  </div>
+  <div class="info-item reveal reveal-delay-2">
+    <span class="info-icon">📞</span>
+    <div class="info-title">Call & WhatsApp</div>
+    <div class="info-text">+91 98765 43210<br>+91 98765 43211</div>
+  </div>
+  <div class="info-item reveal reveal-delay-3">
+    <span class="info-icon">🚚</span>
+    <div class="info-title">Delivery</div>
+    <div class="info-text">Same-day delivery in Ludhiana<br>Min. order ₹300 for free delivery</div>
+  </div>
+</div>
+ 
+<!-- ════════════  FOOTER  ════════════ -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <a href="#" class="footer-logo">
+        <div class="logo-icon" style="width:36px;height:36px;font-size:1.1rem;">🎂</div>
+        <span class="logo-text">Mithas</span>
+      </a>
+      <p class="footer-desc">Ludhiana's most loved bakery, sweet shop & cake house. Made fresh, served with love, delivered to your door.</p>
+      <div class="f-social">
+        <a href="#">ig</a>
+        <a href="#">fb</a>
+        <a href="#">wa</a>
+        <a href="#">yt</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Menu</h4>
+      <ul class="f-links">
+        <li><a href="#">Custom Cakes</a></li>
+        <li><a href="#">Indian Sweets</a></li>
+        <li><a href="#">Artisan Breads</a></li>
+        <li><a href="#">Pastries</a></li>
+        <li><a href="#">Gift Boxes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul class="f-links">
+        <li><a href="#">Wedding Orders</a></li>
+        <li><a href="#">Corporate Gifting</a></li>
+        <li><a href="#">Birthday Cakes</a></li>
+        <li><a href="#">Home Delivery</a></li>
+        <li><a href="#">Bulk Orders</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Info</h4>
+      <ul class="f-links">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Ingredients</a></li>
+        <li><a href="#">Allergen Info</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Mithas Bakery & Sweets, Ludhiana. All rights reserved.</p>
+    <p>Made with 🧈 & ❤️ in Punjab</p>
+  </div>
+</footer>
+<a href="https://wa.me/919876543210"
+class="floating-wa"
+target="_blank">
+💬
+</a>
+ 
+<script src="script.js"></script>   
+</body>
+</html>
